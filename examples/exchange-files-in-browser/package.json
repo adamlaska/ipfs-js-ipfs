@@ -4,7 +4,9 @@
   "scripts": {
     "bundle": "browserify public/app.js > public/bundle.js",
     "start": "http-server -c-1 -p 12345 public",
-    "dev": "npm run bundle && npm run start"
+    "dev": "npm run bundle && npm run start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "MIT",
   "devDependencies": {
@@ -12,7 +14,9 @@
     "http-server": "^0.11.1"
   },
   "dependencies": {
-    "ipfs": "0.30.0",
-    "stream-buffers": "^3.0.1"
-  }
+    "ipfs": "0.41.0",
+    "stream-buffers": "^3.0.1",
+    "snyk": "^1.369.2"
+  },
+  "snyk": true
 }
