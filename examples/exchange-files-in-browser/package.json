@@ -9,10 +9,10 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^16.2.0",
-    "http-server": "^0.11.1"
+    "http-server": "^0.12.2"
   },
   "dependencies": {
-    "ipfs": "0.30.0",
+    "ipfs": "0.51.0",
     "stream-buffers": "^3.0.1"
   }
 }
