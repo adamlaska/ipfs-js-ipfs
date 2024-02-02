@@ -18,6 +18,6 @@
     "libp2p-secio": "~0.10.0",
     "libp2p-spdy": "~0.12.1",
     "libp2p-tcp": "~0.12.0",
-    "libp2p-websocket-star": "~0.8.1"
+    "libp2p-websocket-star": "~0.10.2"
   }
 }
